@@ -1,0 +1,83 @@
+.aboutSection {
+  padding: 3rem 1rem;
+  background: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 2rem;
+
+  @media (min-width: 900px) {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+}
+
+.imgCol {
+  flex: 1 1 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgMe {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  border: 6px solid #fff;
+  background: #fff;
+  margin-top: 1.3rem;
+}
+
+.textCol {
+  flex: 2 1 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  @media (min-width: 900px) {
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #109af7;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  color: #888;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: #222;
+}
+
+.role {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #109af7;
+  margin-bottom: 1rem;
+}
+
+.desc {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.7;
+}
